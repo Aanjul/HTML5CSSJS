@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>symtec</title>
+	<script type="text/javascript">
+
+var moveamt = 0;
+
+function moveBob()
+
+{
+	moveamt+=5;
+	document.getElementById("bob").style.position="relative";
+	document.getElementById("bob").style.left = moveamt + "px";
+}
+
+
+
+											// document.onkeydown=function(e)
+											// 	{
+											// 			var e=e||window.event;
+
+											// 		if(e.keyCode==65){
+
+											// 		}
+											// 		if(e.keyCode==68){
+
+											// 		}
+
+											// 		if(e.keyCode==87){
+
+											// 		}
+											// 		if(e.keyCode==83){
+
+											// 		}
+
+											// 	}
+
+// function moveBob()
+// {
+	
+// 	document.getElementById("bob").style.position="relative";
+// 	document.getElementById("bob").style.left = moveamt + "px";
+// }
+
+	</script>
+</head>
+
+<body>
+<button onclick="moveBob()">MOVE</button>
+
+<div id="bob" style="width:100px;height:100px;background-color:red;"></div>
+</body>
+</html>

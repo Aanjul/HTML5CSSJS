@@ -1,12 +1,10 @@
 /*Styling of complet page*/
 
-	*{
-		margin: 0;
-		padding:0;
 
-	}
-
-
+*{
+	margin: 0;
+	padding: 0;
+}
 
 body{
 	background-color:	#B73311;
@@ -14,7 +12,8 @@ body{
 
 #wrapper{
 	width: 800px;
-	margin:0 auto 0 auto;
+	max-width: 800px;
+	margin: 20px auto;
 }
 
 
@@ -29,10 +28,10 @@ body{
 
 
 
-	
+	 
 	header{
 
-		width: 800px;
+		width: auto;
 		height: 100px;
 		background-image: url(rsz_2gettyimages.jpg);
 
@@ -54,6 +53,7 @@ body{
 		width: auto;
 		height: 30px;
 		background-color: green;
+		margin: 0;
 		padding-top: 5px;
 		background-color: skyblue;
 
@@ -69,23 +69,24 @@ body{
 	#bob a:hover{
 
 		color:pink;
+		text-decoration: none;
 	}
 	#content{
 
-			width: 800px;
-			height: 500px;
+			width: auto;
+			min-height: 50px; 
 			background-color:#581845;
 		}
 
 		#contenttxt{
-			/*margin:0;*/
-			padding: 20px 0  0 20px;
+			
+			padding: 20px ;
 		}
 
 	footer{
 
-		width:  800px;
-		height: 10px;
+		width:  auto;
+		height: 30px;
 		background-color:skyblue;
 		border-bottom-left-radius: 15px;
 		border-bottom-right-radius: 15px;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>changing content with inner HTML</title>
+
+<script type="text/javascript">
+
+	var bla = "I like the food, Do you ?";
+	
+
+	function change ()
+	{
+		document.getElementById("content").innerHTML = "<p> You have changed the text " +bla + " bla bla </p>";
+	}
+	
+</script>
+</head>
+
+
+<body>
+
+	<button onclick="change()"> Change the Content </button>
+<div id="content">
+	<p>
+		This is text
+	</p>
+</div>
+
+
+</body>
+
+
+
+</html>
